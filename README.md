@@ -3,6 +3,13 @@
 <br>
 <h1>Basic Linked list template</h1>
 <br>
+#include<iostream>
+<br>
+#include<bits/stdc++.h>
+<br>
+using namespace std;
+<br>
+
 struct Node
 <br>
 {
@@ -19,10 +26,9 @@ struct Node
         <br>
         next=NULL;
         <br>
-    }<br>
-
+    }
+    <br>
 };
-<br>
 
 
 int main()
